@@ -930,7 +930,7 @@
     .advertisement{
     width: 49%;
     margin-bottom: 1%;
-    
+    min-height: 247px;
   }
     
     .advertisement:nth-child(even) {
@@ -1083,6 +1083,8 @@
      width: 100%;
       margin-bottom: 1%; 
      
+      min-height: 247px;
+
     }
     .logo{
       order:1;
@@ -1520,6 +1522,7 @@
       
        max-width: 640px;
     }
+    
     .widget{
    width: 100%;
       
