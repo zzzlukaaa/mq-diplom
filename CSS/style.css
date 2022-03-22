@@ -47,8 +47,7 @@
     
     box-sizing: border-box;
    
-    padding-left: 82px;
-    padding-right: 44px;
+    padding: 0 15px;
     
     
     
@@ -57,6 +56,7 @@
 
   .logo{
     margin-top: 4px;
+    margin-left: 68px;
   }
   
   .logo_menu{
@@ -76,7 +76,7 @@
     .menu-lists { 
      display: flex;
      list-style-type: none; 
-    
+     margin-right: 32px;
      }
   
      .menu-list {
@@ -106,7 +106,7 @@
    
     box-sizing: border-box;
     text-align:center;
-    max-width: 700px;
+    max-width: 650px;
     
 
       
@@ -136,14 +136,15 @@
   /* 2 блок */
   .caption{
     
-    margin-top: 38px;
+    margin-top: 45px;
     margin-bottom: 6px;
+    
   }
 
 .subject-caption{
   text-align: center;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 25px;
   color: #0f0d0e;
   
   font-family: "OpenSans-Bold";
@@ -155,7 +156,7 @@
    
     margin-left: auto;
     margin-right: auto;
-    margin-top: 26px;
+    margin-top: 24px;
    display: flex;
     
     
@@ -280,14 +281,14 @@
     margin-right: auto;
   
     padding-left: 15px;
-    padding-right: 112px;
+    padding-right: 15px;
    
     
   } 
   
   .main{
   
-    margin-right: 90px;
+    margin-right: 106px;
     
     box-sizing: border-box;
   
@@ -295,7 +296,7 @@
    
    max-width: 899px;
    text-align: start;
-   margin-left:113px;
+   margin-left: 64px;
     }
   
   
@@ -332,7 +333,7 @@
    
    margin-left: 25px; 
    
-  
+   width: 330px;
     
   }
   
@@ -428,14 +429,19 @@
   
   .article-text{
     
-    margin-top: 37px;
+    
     box-sizing: border-box;
-    font-size: 15px;
-    line-height: 21px;
+    font-size: 13.4px;
+    line-height: 19px;
     color: #0f0d0e;
     
     margin-top: 30px;
-  
+    font-family: "OpenSans-Regular";
+
+
+    
+    height: 62px;
+
   }
   .heading{
     margin-top: 0;
@@ -446,7 +452,8 @@
   
   .sidebar{
     width: 271px;
-    margin-top: 14px;
+    
+    margin-top: 16px;
    
    }
     .adv{
@@ -456,12 +463,12 @@
   
   .sidebar_article{
     display: flex;
-    
+    width: 240px;
    
    
   }
   .sidebar_article:nth-child(n+2){
-      margin-top: 15px; 
+      margin-top: 12px; 
   }
   
   
@@ -482,7 +489,7 @@
   }
 
 .subject_section{
-  margin-bottom:5px;
+  margin-bottom: 19px;
 }
   
   .article-section-link{
@@ -496,31 +503,21 @@
 
 
   .section-caption{
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 13px;
+    line-height: 15px;
   }
    
-  .pic{
-    width: 66px;
-    height: 3px;
-    background-color: #b59f5b;
-    
-    
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-  }
+ 
   
   .section_img{
-    width: 60px;
+    width: 61px;
     box-sizing: border-box;
     padding-top: 3px;
     
   }
   
   .article-date{
-    margin-left: 19px;
+    margin-left: 16px;
     
   }
   
@@ -539,7 +536,7 @@
   
   .row{
     font-size: 0; 
-    margin-right: 16px;
+    margin-right: 31px;
     margin-top: 18px;
   }
   
@@ -636,7 +633,8 @@
   
   .article-holder-link {
     font-size: 10.5px;
-    line-height: 25px;
+    line-height: 20px;
+
     color: #0f0d0e;
     font-family: "OpenSans-Bold";
     
@@ -657,6 +655,8 @@
     padding: 0px 12px;
     border-width: 3px;
     border-color: #ededed; 
+
+    margin-bottom: 4px;
   }
   
   .container{
@@ -715,6 +715,8 @@
       
     margin-left: auto;
     margin-right: auto;
+    padding-left:15px;
+    padding-right:15px;
   }
   .widget{
   /*   один виджет */
@@ -928,11 +930,12 @@
   
   
   .col{
-    margin-bottom: 38px;
-    margin-left: 15px;
-   
-   
+    margin-bottom: 39px;
   }
+    
+   
+   
+  
   
   .article-heading{
    
@@ -963,6 +966,9 @@
     width: 1px;
   }
   
+  .page-visible{
+    margin-bottom:26px;
+  }
   
   .article-section-link:hover{
     color: #b59f5b;
@@ -970,6 +976,17 @@
   
   h2{
     margin-top: 0;
+  }
+
+  
+
+  .visible::after {
+    content: "";
+    display: block;
+    width: 66px;
+    height: 3px;
+    background-color: #b59f5b;
+    margin: 8px auto 0 auto;
   }
   
   
@@ -1050,7 +1067,7 @@
    
    margin-left: 0px; 
    
-   
+   width: 330px;
     
   }
      
@@ -1108,6 +1125,7 @@
   }
     .sidebar{
       margin-right: 3%;
+
     }
    
     
