@@ -178,7 +178,7 @@
     
     
     box-sizing: border-box;
-    min-height: 285px;
+    min-height: 260px;
     max-height: 400px;
     background-size: 100%;
     
@@ -274,7 +274,7 @@
     margin-top: 24px; 
    
   
-    
+    justify-content: space-between;
     
     max-width: 1170px;
     margin-left: auto;
@@ -324,10 +324,7 @@
     
   } 
   
-  .img{ 
-    max-width: 340px; 
-    
-  }
+ 
   
   .article-texts {
    
@@ -463,7 +460,7 @@
   
   .sidebar_article{
     display: flex;
-    width: 240px;
+    
    
    
   }
@@ -536,7 +533,7 @@
   
   .row{
     font-size: 0; 
-    margin-right: 31px;
+    
     margin-top: 18px;
   }
   
@@ -583,7 +580,7 @@
   }
   
   .wide_button{
-    width: 197px;
+    width: 228px;
   }
   
   .button{
@@ -603,7 +600,7 @@
   
   .wide{
     box-sizing: border-box; 
-    width: 240px;
+    width: 271px;
   }
   
   .button_wide{ 
@@ -625,7 +622,7 @@
     list-style-type: none;
     padding-left: 0; 
     
-    margin: 13px 16px 0 0;
+    
     text-align: start;
   }
   
@@ -736,9 +733,10 @@
     text-align: center;
     
      
-    width: 85%;
+   
     
-    margin: 0 auto;
+    margin-left: 25px;
+    margin-right: 25px;
   }
   
 .picture{
@@ -995,7 +993,7 @@
      margin-left: 5px;
   }
     .widget:nth-child(n+2){
-  margin-left: 5%;
+  margin-left: 20px;
   }
     
     }
@@ -1008,12 +1006,12 @@
      .article_promo{
       display: flex;
       flex-wrap: wrap;
-      
+      justify-content: space-between;
       
     }
     .advertisement{
     width: 49%;
-    margin-bottom: 1%;
+    margin-bottom: 10px;
     min-height: 247px;
   }
     
@@ -1028,8 +1026,8 @@
        display: flex;
       justify-content:center;
       
-      padding-left: 0;
-      padding-right: 0;
+      padding-left: 15px;
+      padding-right: 15px;
     }
   
   .article{
@@ -1044,7 +1042,7 @@
     .main{
       
       margin-right: 50px;
-      margin-left: 10px;
+      margin-left: 30px;
       
     }
     .article-link{
@@ -1065,11 +1063,11 @@
   
     .article-texts {
    
-   margin-left: 0px; 
-   
-   width: 330px;
-    
-  }
+      margin-left: 0px; 
+      
+      width:100%;
+       
+     }
      
     
     
@@ -1079,8 +1077,8 @@
       
        max-width: 1200px;
      
-       margin-left: 3%;
-       margin-right: 3%;
+     
+       justify-content: space-between;
   }
     
    
@@ -1088,14 +1086,12 @@
    
    
     .widget{
-   width: 45%;
-      
-    margin-bottom: 1%;
+  
+    width: 48%;
+    margin-bottom: 30px;
   }
    
-    .widget:nth-child(even){
-  margin-left: 10%; 
-   }
+   
     
      .menu-lists { 
      display: flex;
@@ -1123,11 +1119,12 @@
       max-width: 1200px;
       padding: 0 15px;
   }
-    .sidebar{
-      margin-right: 3%;
-
-    }
+    
+  .sidebar {
    
+    margin-top: 0;
+   
+ }
     
   }  
   
@@ -1164,13 +1161,15 @@
     .advertisement{
       
      width: 100%;
-      margin-bottom: 1%; 
+     margin-bottom: 10px;
      
       min-height: 247px;
 
     }
     .logo{
       order:1;
+      
+        margin-left: 0;
     }
   
   
@@ -1181,6 +1180,7 @@
      display: flex;
      flex-direction: column;
      
+      margin-right: 0;
      
      }
   
@@ -1225,7 +1225,7 @@
       display: flex;
       flex-wrap: wrap;
       
-      
+      justify-content: space-between;
     }
     
     
@@ -1240,6 +1240,7 @@
      padding-left: 0;
      padding-right: 0;
      max-width: 640px;
+     align-items: center;
     }
   
   .article{
@@ -1254,7 +1255,8 @@
       margin-right: 0;
       max-width: 640px;
       margin-left: 0;
-      margin-left: 10px;
+      
+      margin-right: 0;
     }
     
    
@@ -1269,7 +1271,8 @@
   
    margin-left: 0px; 
    
-   
+   width:100%;
+       
     
   }
      .img{
@@ -1282,13 +1285,12 @@
       flex-wrap: wrap;
       
        max-width: 640px;
-       margin-left: 3%;
-       margin-right: 3%;
+     
     }
     .widget{
    width: 100%;
       
-    margin-bottom: 1%;
+   margin-bottom: 30px;
   }
    
  
@@ -1301,9 +1303,10 @@
     .label-width100{
       width:100%;
     }
-    .sidebar{
-      width: 100%;
-    }
+   .sidebar{
+     margin-left:0;
+     margin-right:0;
+   }
     
     .wide{
       width: 100%;
@@ -1348,21 +1351,21 @@
      .article_promo{
       display: flex;
       flex-wrap: wrap;
-      
+      justify-content: space-between;
       
     }
     .advertisement{
     width: 24%;
-    margin-bottom: 1%;
+    margin-bottom: 10px;
       
   }
     
-    .advertisement:nth-child(even) {
-      margin-left: 1%;
+   
+  .sidebar {
+   
+     margin-top: 0;
+    
   }
-  
-    
-    
     
     .main_aside{
        display: flex;
@@ -1384,7 +1387,8 @@
     .main{
       
       margin-right: 50px;
-      margin-left: 10px;
+      
+      margin-left: 30px;
     }
     .article-link{
        width:100%;
@@ -1404,7 +1408,7 @@
    
    margin-left: 0px; 
    
-   
+   width:100%;
     
   }
      
@@ -1416,8 +1420,7 @@
       
        max-width: 1200px;
      
-       margin-left: 3%;
-       margin-right: 3%;
+      
   }
     
    
@@ -1426,13 +1429,9 @@
    
     .widget{
    width: 45%;
-      
-    margin-bottom: 1%;
+   margin-bottom: 30px;
   }
    
-    .widget:nth-child(even){
-  margin-left: 10%; 
-   }
     
      .menu-lists { 
      display: flex;
@@ -1460,9 +1459,7 @@
       max-width: 1200px;
       padding: 0 15px;
   }
-    .sidebar{
-      margin-right: 3%;
-    }
+    
     .field{
   
       border-radius: 0;
@@ -1501,9 +1498,13 @@
     .advertisement{
       
      width: 49%;
-      margin-bottom: 1%; 
+     margin-bottom: 10px;
     }
-    .logo{order:1;}
+    .logo{order:1;
+      
+       
+        margin-left: 0;
+    }
   
   
   
@@ -1512,7 +1513,7 @@
     .menu-lists { 
      display: flex;
      flex-direction: column;
-     
+     margin-right: 0;
      
      }
   
@@ -1552,7 +1553,7 @@
       display: flex;
       flex-wrap: wrap;
       
-      
+      justify-content: space-between;
     }
     
     
@@ -1560,9 +1561,10 @@
     .main_aside{
        display: flex;
      flex-direction: column;
-     padding-left: 0;
-     padding-right: 0;
+     padding-left: 15px;
+      padding-right: 15px;
      max-width: 640px;
+     align-items: center;
     }
   
   .article{
@@ -1574,10 +1576,10 @@
   }
     .main{
       
-      margin-right: 0;
+      
       max-width: 640px;
-      margin-left: 20px;
-      margin-left: 10px;
+      
+      margin-right: 0;
     }
     .img{
     width: 100%;
@@ -1594,7 +1596,8 @@
   
    margin-left: 0px; 
    
-   
+   width:100%;
+       
     
   }
      
@@ -1605,14 +1608,13 @@
       flex-wrap: wrap;
       
        max-width: 640px;
-       margin-left: 3%;
-       margin-right: 3%;
+       
     }
     
     .widget{
    width: 100%;
       
-    margin-bottom: 1%;
+   margin-bottom: 30px;
   }
    
    
@@ -1651,7 +1653,7 @@
       margin-right: 10%;
     }
     
-  /*   кнопки */
+     /* кнопки */
     .field{
   
       border-radius: 0;
