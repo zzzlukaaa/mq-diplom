@@ -1603,6 +1603,9 @@ margin-top: 0;
       width: 90%;
       max-width: 390px;
     }
+    .row-col{
+      display:flex;
+    }
   }
    @media (max-width:350px){
 
@@ -1631,6 +1634,10 @@ min-height: 100px;
   margin-right: -19px;
   margin-top: -36px;
   
+}
+
+.row-col{
+  display:flex;
 }
 
 }
@@ -1953,6 +1960,10 @@ min-height: 100px;
       -webkit-appereance: none;
       -moz-appereance: none;
       appearance: none;
+    }
+
+    .row-col{
+      display:flex;
     }
   }
   
