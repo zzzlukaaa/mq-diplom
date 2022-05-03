@@ -1981,7 +1981,7 @@ min-height: 100px;
     
     .advertisement{
       
-     width: 49.5%;
+     width: 49.8%;
      margin-bottom: 2px;
     }
     .logo{
@@ -2052,6 +2052,7 @@ min-height: 100px;
       padding-right: 15px;
      max-width: 640px;
      align-items: center;
+     box-sizing: border-box;
     }
   
   .article{
